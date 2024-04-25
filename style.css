@@ -1,0 +1,59 @@
+html {
+      height: 100%;
+      width: 100%;
+    }
+    body{
+        color: white;
+    }
+    .main-frame{
+        width: 98%;
+        height: 550px;
+        background: #121B22;
+        border: 6px solid darkblue;
+    }
+    .language-frame{
+        border-bottom: 1px solid silver;
+        height: 30px;
+    }
+    .language-frame button{
+        padding: 5px;
+        background: #2D383E;
+        width: 55px;
+        height: auto;
+        color: white;
+        border: none;
+        outline: none;
+        font-size: 16px;
+    }
+    .language-frame .active {
+        background: silver;
+    }
+    textarea{
+        width: 98%;
+        height: 390px;
+        background: #121B22;
+        border: none;
+        outline: none;
+        color: white;
+        overflow: auto;
+        font-size: 18px;
+    }
+    #cssArea, #jsArea, #output{
+        display: none;
+    }
+    #runBtn{
+        padding: 5px;
+        background: green;
+        width: 55px;
+        height: auto;
+        color: white;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        float: right;
+        margin-right: 3px;
+    }
+    #output{
+        width: 98%;
+        height: 517px;
+    }
